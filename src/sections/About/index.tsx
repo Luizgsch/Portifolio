@@ -129,6 +129,31 @@ export const About = () => {
           <div className="about-grid">
             <div className="about-text-column">
               <span className="about-label">SOBRE MIM</span>
+
+              <div className="about-stats">
+                <motion.div
+                  className="about-stat-item"
+                  initial={{ opacity: 0, y: 20 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true }}
+                  transition={{ duration: 0.5, delay: 0.1 }}
+                >
+                  <span className="about-stat-number">20 +</span>
+                  <span className="about-stat-label">Repositórios no Github</span>
+                </motion.div>
+                <div className="about-stat-divider" />
+                <motion.div
+                  className="about-stat-item"
+                  initial={{ opacity: 0, y: 20 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true }}
+                  transition={{ duration: 0.5, delay: 0.2 }}
+                >
+                  <span className="about-stat-number">10 +</span>
+                  <span className="about-stat-label">Projetos Reais</span>
+                </motion.div>
+              </div>
+
               <h2 className="about-title">
                 Transformando complexidade em <br /> <span>soluções elegantes.</span>
               </h2>

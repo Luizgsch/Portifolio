@@ -18,6 +18,41 @@
   font-weight: 600;
 }
 
+.about-stats {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 2.5rem;
+}
+
+.about-stat-item {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.about-stat-number {
+  font-size: 2.2rem;
+  font-weight: 800;
+  color: var(--color-primary);
+  letter-spacing: -0.04em;
+  line-height: 1;
+}
+
+.about-stat-label {
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--text-secondary);
+}
+
+.about-stat-divider {
+  width: 1px;
+  height: 40px;
+  background: var(--border-color);
+}
+
 .about-title {
   margin-bottom: 2rem;
   max-width: 100%;
